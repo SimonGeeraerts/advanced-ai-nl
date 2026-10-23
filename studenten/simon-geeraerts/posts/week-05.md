@@ -2,7 +2,7 @@
 
 ## Mijn foutmarge
 
-Ik dacht eerst dat mijn nieuwe prompt beter was, maar bij de extra testen bleek dat er bijna geen verschil was. Ik heb vooral geleerd dat je best veel verschillende testen doet, want als je maar een paar vragen test, kan het gewoon toeval zijn dat alles juist is. Met meer testen krijg je een beter beeld van hoe goed het echt werkt.
+Ik dacht eerst dat mijn nieuwe prompt beter was, maar extra testen toonden bijna geen verschil. Met meer verschillende vragen krijg je een beter beeld; met maar enkele vragen kan een juiste score toeval zijn.
 
 - Model: `gpt-6-luna`
 - Vorige prompt: 13/13, 12/13, 13/13 → bereik 12–13/13
@@ -12,7 +12,7 @@ Ik dacht eerst dat mijn nieuwe prompt beter was, maar bij de extra testen bleek 
 
 ## Model en effort
 
-Mijn gok klopte wel, want je hebt niet per se een heel zwaar model nodig voor deze taak. Ik heb uiteindelijk voor Luna gekozen, omdat die bij de testen 12 of 13 op 13 haalde en bijna niks kost. Omdat Luna dezelfde score haalde en ongeveer twintig keer goedkoper is, vind ik een ander model niet nodig.
+Mijn gok klopte: je hebt geen heel zwaar model nodig voor deze taak. Luna haalde 12 of 13 op 13 en kost bijna niets. De andere modellen scoorden hetzelfde en waren ongeveer twintig keer duurder, dus ik kies Luna.
 
 - Luna, Terra en Sol scoorden elk 12/13, dus binnen de foutmarge.
 - Luna kost €0,0000514 per run en €0,0185 per jaar bij 360 vragen.
@@ -26,7 +26,7 @@ Uit mijn berekening blijkt dat de tool ongeveer 9 minuten per vraag kan besparen
 
 ## Mijn dashboard
 
-https://simon-geeraerts-week5-dashboard.elvenbuddy17.chatgpt.site
+https://raw.githack.com/SimonGeeraerts/advanced-ai-nl/week-05/studenten/simon-geeraerts/build/dashboard.html
 
 Ik wil dat je meteen ziet hoeveel tijd en geld de tool kan besparen en hoe goed hij scoorde bij de testen.
 
@@ -51,3 +51,7 @@ Luna, Terra en Sol scoorden elk 12/13, binnen mijn foutmarge van 12–13; ik kie
 > Week 4: “Ik zou de tool nu al aanraden om verder te gebruiken bij Ford Geeraerts, omdat de laatste testen allemaal juist waren en hij veel tijd kan besparen.”
 
 In mijn test runs scoorde de tool 12 of 13 op 13, maar omdat ik alleen fictieve gegevens gebruikte, moet ik eerst met echte gegevens controleren of dat resultaat overeind blijft.
+
+## Mijn testset groeit
+
+Ik voegde 20 nieuwe vragen toe: gewone klantvragen, korte en anderstalige vragen en vragen met ontbrekende info. Zo test ik of de assistent eerlijk zegt dat hij iets niet weet. T15 verraste mij het meest: hij gaf de huidige datum, maar zei niet dat hij niet kan weten of die veranderd is. Op set v2 scoorde de laatste prompt 26 op 30 (n = 30, 1 run, `gpt-6-luna`).
